@@ -89,4 +89,7 @@ app.use('/api/user', userRouter);
 
 app.get('/', (req, res) => res.send('Welcome to Library Management System'));
 
-app.listen(PORT, () => console.log(`Server listening on port ${PORT}!`));
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
+
